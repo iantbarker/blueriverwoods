@@ -12,6 +12,9 @@ p {
 .centered-content {
 	width: 75%;
 	margin: 0 auto;
+	@media (max-width: $screen-xs-max) {
+		width: 100%;
+	}
 }
 
 img {

@@ -111,7 +111,7 @@ function blue_river_woods_scripts() {
 	wp_register_style( 'main_css',  get_template_directory_uri() . '/styles/css/main.css', false, '1.0' );
 	wp_enqueue_style( 'main_css' );
 
-	wp_register_style( 'google_font_rubik', 'https://fonts.googleapis.com/css?family=Rubik:400,400i,500,700', false, '1.0' );
+	wp_register_style( 'google_font_rubik', 'https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700', false, '1.0' );
 	wp_enqueue_style( 'google_font_rubik' );
 
 	wp_enqueue_script( 'bootstrap_js', get_template_directory_uri() . '/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js', array('jquery'), '20151215', true );

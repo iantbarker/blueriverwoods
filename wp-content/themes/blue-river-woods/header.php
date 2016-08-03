@@ -25,7 +25,7 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="container">
-	<header class="jumbotron" id="header" role="banner">
+	<header class="jumbotron text-center" id="header" role="banner">
 		<div class="container">
 			<?php the_field('header_content'); ?>
 		</div><!-- .site-branding -->
