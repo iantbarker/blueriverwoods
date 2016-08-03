@@ -1,2 +1,50 @@
 @import 'variables.scss';
 @import 'bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+
+body {
+	background-color: #eee;
+}
+
+p {
+	margin-bottom: $line-height-computed;
+}
+
+.centered-content {
+	width: 75%;
+	margin: 0 auto;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.jumbotron {
+	margin-bottom: 0px;
+	background: url('../../images/header-graphic.jpg') center center no-repeat;
+	background-size: cover;
+	color: #fff;
+
+	.container &,
+	.container-fluid & {
+		border-radius: 0px;
+	}
+}
+
+#page {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#primary {
+	padding: 30px;
+}
+
+.site-content {
+	background-color: #fff;
+	margin-top: 30px;
+}
+
+.navbar.navbar-default {
+	margin-bottom: 0px;
+}
